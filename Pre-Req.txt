@@ -1,0 +1,19 @@
+================================================================================
+  SMART NAVIGATION SYSTEM - OUR CPP BASICS EXTENSION
+================================================================================
+
+WHAT TO DO WITH THIS FOLDER:
+----------------------------
+Nothing to do,
+
+This project is the Extension of our console based application system 
+called;
+" SMART NAVIGATION SYSTEM "
+that u can also check over here:
+   - Go to: https://github.com/Hunain-Riasat/SMART-NAVIGATION-SYSTEM
+   
+
+
+ENJOY OUR SMART NAVIGATION SYSTEM! 🚀
+Especially for the juniors 😉
+================================================================================
