@@ -1,0 +1,60 @@
+.app {
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.main-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.tab-content {
+  margin-top: 2rem;
+  min-height: 600px;
+}
+
+/* Notification styles */
+.notification {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 2rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: var(--shadow-glow);
+  font-weight: 500;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.notification.success {
+  border-color: var(--accent-tertiary);
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+}
+
+.notification.error {
+  border-color: var(--accent-secondary);
+  box-shadow: 0 0 20px rgba(255, 0, 170, 0.3);
+}
+
+.notification.warning {
+  border-color: var(--accent-warning);
+  box-shadow: 0 0 20px rgba(255, 170, 0, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1rem;
+  }
+  
+  .notification {
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    transform: none;
+  }
+}

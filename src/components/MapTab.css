@@ -1,0 +1,88 @@
+.map-tab {
+  animation: slideInUp 0.4s ease;
+}
+
+.map-card {
+  padding: 1.5rem;
+}
+
+.map-legend {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.legend-color {
+  width: 40px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.legend-color.normal {
+  background: #00ff88;
+  box-shadow: 0 0 8px rgba(0, 255, 136, 0.5);
+}
+
+.legend-color.traffic {
+  background: #ffaa00;
+  box-shadow: 0 0 8px rgba(255, 170, 0, 0.5);
+}
+
+.legend-color.blocked {
+  background: #ff00aa;
+  box-shadow: 0 0 8px rgba(255, 0, 170, 0.5);
+}
+
+.legend-color.unavailable {
+  background: rgba(108, 121, 153, 0.5);
+  border: 1px dashed rgba(108, 121, 153, 0.7);
+}
+
+.map-container {
+  position: relative;
+  background: radial-gradient(circle at 50% 50%, 
+    rgba(0, 240, 255, 0.03) 0%, 
+    transparent 50%);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+.map-canvas {
+  max-width: 100%;
+  height: auto;
+  image-rendering: crisp-edges;
+  filter: drop-shadow(0 0 20px rgba(0, 240, 255, 0.1));
+}
+
+@media (max-width: 768px) {
+  .map-legend {
+    gap: 1rem;
+  }
+  
+  .legend-item {
+    font-size: 0.75rem;
+  }
+  
+  .map-container {
+    min-height: 400px;
+  }
+}
