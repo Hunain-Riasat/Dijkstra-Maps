@@ -283,6 +283,11 @@ After setup:
 
 ---
 
-**Built with ❤️ using React, Vite, and modern web technologies**
+## 👨‍💻 **Contributors:**
+- **Muhammad Hunain Riasat** — FA24-BSE-083  
+- **Zain Aftab** — FA24-BSE-155  
+- **Muhammad Shaheer** — FA24-BSE-089  
+- **Muhammad Ahsan** — FA24-BSE-071  
 
-*Your C++ console app is now a stunning web application!*
+**Built with ❤️ by above peeps!😉
+
