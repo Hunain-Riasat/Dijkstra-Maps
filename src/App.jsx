@@ -199,7 +199,13 @@ function App() {
   };
 
   return (
-    <div className="app">
+    
+
+
+
+
+    <div className="app-container">
+      <div className="app">
       <Header />
       
       <main className="main-content">
@@ -269,7 +275,15 @@ function App() {
         )}
       </AnimatePresence>
     </div>
+
+      <footer className="footer">
+        Made with ❤️ by Muhammad Hunain
+      </footer>
+    </div>
   );
 }
 
 export default App;
+
+
+
