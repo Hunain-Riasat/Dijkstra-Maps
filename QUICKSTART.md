@@ -2,7 +2,6 @@
 
 ## Get Your App Running Now
 
----
 
 ## 📋 Requirements
 
@@ -16,9 +15,8 @@
 node --version
 ```
 
----
 
-## 🚀 3 Commands to Success
+## 🚀 3 Commands to Success 
 
 Open Command Prompt or Terminal in this folder:
 
@@ -101,7 +99,9 @@ Press F12, check Console for errors
 
 **Total time:** 2 minutes
 **Result:** Professional navigation app! 🚀
-
+Thats it,
+we had worked to simplify things to lower level so any one with no how know can use this thing 
+Also,
 Read README.md for full features and customization.
 
 ---
