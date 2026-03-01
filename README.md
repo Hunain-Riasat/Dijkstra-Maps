@@ -215,7 +215,7 @@ smart-navigation-system/
         ├── StatsTab.jsx
         └── StatsTab.css
 ```
-
+So the above is the repos and project structure...
 ---
 
 ## 🎯 Pre-loaded Data
